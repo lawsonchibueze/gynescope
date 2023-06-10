@@ -2,8 +2,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@aws-amplify/ui-react";
 import { Amplify } from "aws-amplify";
-// import awsconfig from "../aws-exports";
-import awsconfig from "./../aws-exports";
+import awsconfig from "./aws-exports";
 
 Amplify.configure({ ...awsconfig, ssr: true });
 
